@@ -1,0 +1,67 @@
+.tarjetaIndex{
+    border-bottom: 3px solid rgb(0, 33, 122);
+    h2{
+        font-size: $textotablet;
+        color: $colorPrimario;
+        &:hover {
+            background-color: $colorPrimario;
+            color: white;
+        }
+        
+    }
+}
+
+.tarjetaIndexSecundaria {
+    h3{
+        font-size: $textotablet;
+        color: $colorPrimario;
+        &:hover {
+            background-color: $colorPrimario;
+            color: white;
+        }
+    }
+    
+}
+
+.sectionProductos{
+    background-color: $colorPrimario;
+    color: white;
+    font-weight: bold;  
+    .tarjetaTitulo {
+        margin-bottom: 50px;
+        padding: 10px;
+        h5 {
+            font-size: xx-large;
+        }
+    }   
+    .cardsProd {
+        width: 100%;
+        margin: auto;
+        color: $colorPrimario;
+        .cardProductosIndex{
+            background-color: white;
+            border-radius: 10px;
+            -webkit-box-shadow: 3px 3px 3px 3px rgba(88,0,191,1);
+            -moz-box-shadow: 3px 3px 3px 3px rgba(88,0,191,1);
+            box-shadow: 3px 3px 3px 3px rgba(88,0,191,1);
+            &:hover{
+                transform: $hoverlinks;
+                background-color: $colorTerciario;
+                color: white;
+            }
+        }
+}
+
+}
+
+.sectionBlog {
+    background-color: white;
+    color: $colorPrimario;
+    font-weight: 500;
+    .tituloBlog {
+        font-size: x-large;
+        text-transform: uppercase;
+    }
+}
+
+

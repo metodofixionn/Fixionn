@@ -1,0 +1,41 @@
+@media (min-width:768px) {
+    .tarjetaIndex{
+        border-bottom: 0;
+        h2{
+            font-size: $textotablet;
+        }
+    }
+        }
+        .tarjetaIndexSecundaria {
+        h3{
+            font-size: $textotablet;
+        }   
+    }
+
+@media (min-width:992px) {
+    .tarjetaIndex{
+        border-bottom: 0;
+        h2{
+            font-size: $textopc;
+        }
+    }
+    .tarjetaIndexSecundaria {    
+        h3{
+            font-size: $textopc;
+        }
+    }
+    .cardNosotros { 
+        h3{
+        font-size: $textopc;
+        }
+        .textPrincipal {
+            font-size: $textotablet;
+        }
+        p{
+            font-size: $textotablet;
+        }
+    } 
+}
+
+
+
