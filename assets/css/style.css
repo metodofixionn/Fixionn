@@ -23,6 +23,7 @@
 
 .header {
   color: rgba(0, 33, 122, 0.811);
+  background-color: white;
   -webkit-box-shadow: 3px 3px 3px 3px #00217a;
   -moz-box-shadow: 3px 3px 3px 3px #00217a;
   box-shadow: 3px 3px 3px 3px #00217a; }
@@ -35,7 +36,10 @@
 
 .card {
   color: white;
-  background-color: rgba(0, 33, 122, 0.811); }
+  background-color: rgba(0, 33, 122, 0.811);
+  -webkit-box-shadow: 3px 3px 3px 3px #00217a;
+  -moz-box-shadow: 3px 3px 3px 3px #00217a;
+  box-shadow: 3px 3px 3px 3px #00217a; }
 
 .btnf, .btnf-primario, .btnf-secundario, .btnf-terciario {
   border-radius: 10px;
@@ -89,6 +93,26 @@
       transform: scale(0.9, 0.9); }
   .fondoFooter .pieCopyrigth {
     background: rgba(1, 1, 1, 0.3); }
+
+.imgCarousel {
+  height: 500px;
+  opacity: 0.9;
+  overflow: hidden; }
+  .imgCarousel:hover {
+    transform: scale(2.2); }
+
+.carousel-caption {
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  font-weight: 500; }
+  .carousel-caption p {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-size: large; }
+  .carousel-caption img {
+    width: 50px; }
 
 .tarjetaIndex {
   border-bottom: 3px solid #00217a; }
@@ -151,6 +175,11 @@
     color: rgba(0, 33, 122, 0.811);
     font-weight: bolder; }
 
+.sectionMetodox {
+  background-color: rgba(0, 33, 122, 0.811);
+  color: white;
+  font-weight: bold; }
+
 .cardNosotros {
   border-bottom: 10px ridge rgba(0, 33, 122, 0.811); }
   .cardNosotros .fotoNosotros {
@@ -190,29 +219,3 @@
     font-size: 30px; }
   .cardNosotros p {
     font-size: 30px; } }
-
-.imgCarousel {
-  height: 500px;
-  opacity: 0.9;
-  overflow: hidden; }
-  .imgCarousel:hover {
-    transform: scale(2.2); }
-
-.carousel-caption {
-  color: rgba(0, 33, 122, 0.811);
-  position: absolute;
-  top: 20%;
-  z-index: 1;
-  font-weight: 500; }
-  .carousel-caption p {
-    text-transform: uppercase;
-    color: white;
-    font-weight: bolder;
-    font-size: x-large; }
-  .carousel-caption img {
-    width: 50px; }
-
-.card {
-  -webkit-box-shadow: 3px 3px 3px 3px #00217a;
-  -moz-box-shadow: 3px 3px 3px 3px #00217a;
-  box-shadow: 3px 3px 3px 3px #00217a; }

@@ -1,3 +1,30 @@
+.imgCarousel {
+    height: 500px;
+    opacity: 0.9;
+    overflow: hidden;
+    &:hover {
+        transform: scale(2.2);
+    }
+}
+
+.carousel-caption {
+    position: map-get($position , position);
+    top: map-get($position , top);
+    z-index: map-get($position , index);
+    font-weight:map-get($position , weight);
+    p {
+        text-transform: uppercase;
+        color: white;
+        font-weight: bolder;
+        font-size: large;
+    }
+    img {
+        width: 50px;
+    }
+}
+
+
+
 .tarjetaIndex{
     border-bottom: 3px solid rgb(0, 33, 122);
     h2{
@@ -63,5 +90,7 @@
         text-transform: uppercase;
     }
 }
+
+
 
 

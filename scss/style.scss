@@ -9,34 +9,4 @@
 @import "media";
 
 
-.imgCarousel {
-        height: 500px;
-        opacity: 0.9;
-        overflow: hidden;
-        &:hover {
-            transform: scale(2.2);
-        }
-    }
 
-.carousel-caption {
-        color: $colorPrimario;
-        position: map-get($position , position);
-        top: map-get($position , top);
-        z-index: map-get($position , index);
-        font-weight:map-get($position , weight);
-        p {
-            text-transform: uppercase;
-            color: white;
-            font-weight: bolder;
-            font-size: x-large;
-        }
-        img {
-            width: 50px;
-        }
-    }
-
-.card { 
-    -webkit-box-shadow: 3px 3px 3px 3px rgba(0,33,122,1);
-    -moz-box-shadow: 3px 3px 3px 3px rgba(0,33,122,1);
-    box-shadow: 3px 3px 3px 3px rgba(0,33,122,1);
-}
