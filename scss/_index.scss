@@ -1,22 +1,26 @@
-.imgCarousel {
-    height: 500px;
-    opacity: 0.9;
-}
-
-.carousel-caption {
-    position: map-get($position , position);
-    top: map-get($position , top);
-    z-index: map-get($position , index);
-    font-weight:map-get($position , weight);
-    p {
-        text-transform: uppercase;
-        color: white;
-        font-weight: bolder;
-        font-size: large;
+.carousel {
+    width: 100%;
+    overflow: hidden;
+        .imgCarousel {
+        height: 500px;
+        opacity: 0.9;
     }
-    img {
-        width: 50px;
+    .carousel-caption {
+        position: map-get($position , position);
+        top: map-get($position , top);
+        z-index: map-get($position , index);
+        font-weight:map-get($position , weight);
+        p {
+            text-transform: uppercase;
+            color: white;
+            font-weight: bolder;
+            font-size: large;
+        }
+        img {
+            width: 50px;
+        }
     }
+    
 }
 
 
@@ -67,9 +71,9 @@
         .cardProductosIndex{
             background-color: white;
             border-radius: 10px;
-            -webkit-box-shadow: 3px 3px 3px 3px rgba(88,0,191,1);
-            -moz-box-shadow: 3px 3px 3px 3px rgba(88,0,191,1);
-            box-shadow: 3px 3px 3px 3px rgba(88,0,191,1);
+            -webkit-box-shadow: 3px 3px 3px 3px rgba(88,0,191,0.2);
+            -moz-box-shadow: 3px 3px 3px 3px rgba(88,0,191,0.2);
+            box-shadow: 3px 3px 3px 3px rgba(88,0,191,0.2);
             &:hover{
                 transform: $hoverlinks;
                 background-color: $colorTerciario;

@@ -2,10 +2,13 @@
 .cardMetodoX {
     border-radius: $bordesRedondeados;
     background-color: $colorPrimario;
-    border: 1px solid white;
+    box-shadow: 3px 3px 3px 3px rgba(0,33,122,0.5);
     padding: 20px;
     color: white;
     font-weight: 500;
+    &:hover{
+        transform: $hoverlinks;
+    }
     img{
         margin: 15px;
         overflow: hidden;
@@ -20,4 +23,12 @@
     background-color: $colorPrimario;
     color: white;
     font-weight: 500; 
+}
+
+.formMetodo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+
 }
