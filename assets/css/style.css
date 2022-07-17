@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -30,6 +31,8 @@
   .header h1 {
     font-size: 36px;
     color: rgba(0, 33, 122, 0.811); }
+  .header p {
+    font-weight: 500; }
   .header img:hover {
     transform: scale(0.9, 0.9);
     font-weight: bold; }
@@ -96,10 +99,7 @@
 
 .imgCarousel {
   height: 500px;
-  opacity: 0.9;
-  overflow: hidden; }
-  .imgCarousel:hover {
-    transform: scale(2.2); }
+  opacity: 0.9; }
 
 .carousel-caption {
   position: absolute;
@@ -137,12 +137,15 @@
   .sectionProductos .tarjetaTitulo {
     margin-bottom: 50px;
     padding: 10px; }
-    .sectionProductos .tarjetaTitulo h5 {
-      font-size: xx-large; }
+    .sectionProductos .tarjetaTitulo h4 {
+      font-size: xx-large;
+      font-weight: bolder;
+      margin: 10px; }
   .sectionProductos .cardsProd {
     width: 100%;
     margin: auto;
-    color: rgba(0, 33, 122, 0.811); }
+    color: rgba(0, 33, 122, 0.811);
+    margin-bottom: 20px; }
     .sectionProductos .cardsProd .cardProductosIndex {
       background-color: white;
       border-radius: 10px;
@@ -153,17 +156,23 @@
         transform: scale(0.9, 0.9);
         background-color: rgba(88, 0, 191, 0.9);
         color: white; }
+      .sectionProductos .cardsProd .cardProductosIndex h5 {
+        font-weight: bolder; }
 
 .sectionBlog {
   background-color: white;
   color: rgba(0, 33, 122, 0.811);
   font-weight: 500; }
+  .sectionBlog:hover {
+    background-color: rgba(0, 33, 122, 0.811);
+    color: white; }
   .sectionBlog .tituloBlog {
     font-size: x-large;
     text-transform: uppercase; }
 
 .cardMetodoX {
   border-radius: 10px;
+  background-color: rgba(0, 33, 122, 0.811);
   border: 1px solid white;
   padding: 20px;
   color: white;
@@ -172,13 +181,13 @@
     margin: 15px;
     overflow: hidden; }
   .cardMetodoX .tituloMetodox {
-    color: rgba(0, 33, 122, 0.811);
+    color: rgba(0, 184, 184, 0.9);
     font-weight: bolder; }
 
 .sectionMetodox {
   background-color: rgba(0, 33, 122, 0.811);
   color: white;
-  font-weight: bold; }
+  font-weight: 500; }
 
 .cardNosotros {
   border-bottom: 10px ridge rgba(0, 33, 122, 0.811); }

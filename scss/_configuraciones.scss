@@ -30,6 +30,9 @@
     h1 {
         @include fontColor ($fontSizeTitulos,$colorPrimario);
     }
+    p {
+        font-weight: 500;
+    }
     img {
         &:hover {
             transform: $hoverlinks;
