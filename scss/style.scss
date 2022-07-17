@@ -6,21 +6,7 @@
 @import "configuraciones";
 @import "index";
 @import "metodox";
+@import "productos";
 @import "nosotros";
 @import "media";
 
-.cardProductos {
-    background-color: $colorPrimario;
-    color: white;
-}
-
-.sectionProductos {
-    background-color: $colorSecundario;
-    .formProducto {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
-    }
-
-}
