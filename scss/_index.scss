@@ -1,3 +1,7 @@
+.mainIndex{
+    overflow: hidden;
+}
+
 .carousel {
     width: 100%;
     overflow: hidden;
@@ -51,6 +55,7 @@
 }
 
 .sectionProductosIndex{
+    overflow: hidden;
     background-color: $colorSecundario;
     color: white;
     font-weight: bold;  
@@ -91,6 +96,7 @@
     background-color: white;
     color: $colorPrimario;
     font-weight: 500;
+    overflow: hidden;
     &:hover{
         background-color: $colorPrimario;
         color: white;

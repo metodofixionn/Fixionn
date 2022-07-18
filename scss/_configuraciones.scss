@@ -2,13 +2,6 @@
     background-image: $fondo;
 }
 
-main{
-    overflow: hidden;
-}
-
-section{
-    overflow: hidden;
-}
 .navbar {
 
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  $colorPrimario 30%, $colorPrimarioOpacidad 70.2%);
