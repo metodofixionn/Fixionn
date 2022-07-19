@@ -10,12 +10,16 @@
         font-family: map-get($navA , family);
         font-size: map-get($navA , size);
         font-weight: 600;
+        margin: 5px;
+        display: flex;
+        justify-content: end;
         &:hover {
             transform: $hoverlinks;
             color: $colorSecundario;
         }
     }   
     button {
+        justify-content: center;
         &:hover{
             transform: $hoverlinks;
             box-shadow: 3px 3px 3px 3px rgba(0,33,122,1);

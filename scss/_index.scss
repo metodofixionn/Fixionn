@@ -79,6 +79,11 @@
             -webkit-box-shadow: 3px 3px 3px 3px rgba(88,0,191,0.2);
             -moz-box-shadow: 3px 3px 3px 3px rgba(88,0,191,0.2);
             box-shadow: 3px 3px 3px 3px rgba(88,0,191,0.2);
+            img {
+                &:hover{
+                    transform: $hoverlinks;
+                }
+            }
             &:hover{
                 transform: $hoverlinks;
                 background-color: $colorTerciario;
@@ -88,7 +93,7 @@
                 font-weight: bolder;
             }
         }
-}
+    }
 
 }
 
