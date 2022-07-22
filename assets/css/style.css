@@ -116,7 +116,17 @@
     top: 20%;
     z-index: 1;
     font-weight: 500; }
-    .carousel .carousel-caption p {
+    .carousel .carousel-caption h1 {
+      text-transform: uppercase;
+      color: white;
+      font-weight: bolder;
+      font-size: large; }
+    .carousel .carousel-caption h2 {
+      text-transform: uppercase;
+      color: white;
+      font-weight: bolder;
+      font-size: large; }
+    .carousel .carousel-caption h3 {
       text-transform: uppercase;
       color: white;
       font-weight: bolder;
@@ -126,17 +136,17 @@
 
 .tarjetaIndex {
   border-bottom: 3px solid #00217a; }
-  .tarjetaIndex h2 {
+  .tarjetaIndex p {
     font-size: 30px;
     color: rgba(0, 33, 122, 0.811); }
-    .tarjetaIndex h2:hover {
+    .tarjetaIndex p:hover {
       background-color: rgba(0, 33, 122, 0.811);
       color: white; }
 
-.tarjetaIndexSecundaria h3 {
+.tarjetaIndexSecundaria p {
   font-size: 30px;
   color: rgba(0, 33, 122, 0.811); }
-  .tarjetaIndexSecundaria h3:hover {
+  .tarjetaIndexSecundaria p:hover {
     background-color: rgba(0, 33, 122, 0.811);
     color: white; }
 
@@ -247,18 +257,18 @@
 @media (min-width: 768px) {
   .tarjetaIndex {
     border-bottom: 0; }
-    .tarjetaIndex h2 {
+    .tarjetaIndex p {
       font-size: 30px; } }
 
-.tarjetaIndexSecundaria h3 {
+.tarjetaIndexSecundaria p {
   font-size: 30px; }
 
 @media (min-width: 992px) {
   .tarjetaIndex {
     border-bottom: 0; }
-    .tarjetaIndex h2 {
+    .tarjetaIndex p {
       font-size: 35px; }
-  .tarjetaIndexSecundaria h3 {
+  .tarjetaIndexSecundaria p {
     font-size: 35px; }
   .cardNosotros h3 {
     font-size: 35px; }
